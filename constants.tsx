@@ -3,6 +3,7 @@ import React from 'react';
 import { Utensils, Zap, ShieldCheck, Heart, Star } from 'lucide-react';
 import { MenuItem, Testimonial, Feature } from './types';
 
+
 export const WHATSAPP_NUMBER = "6288299309375"; // Ganti dengan nomor asli
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -20,7 +21,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Es Teler Original',
     description: 'Perpaduan alpukat, nangka, dan kelapa muda yang menyegarkan.',
     price: 'Rp 20.000',
-    image: 'src/EsTeler.webp'
+    image: 'EsTeler.webp'
   },
 ];
 

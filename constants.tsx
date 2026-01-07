@@ -3,7 +3,7 @@ import React from 'react';
 import { Utensils, Zap, ShieldCheck, Heart, Star } from 'lucide-react';
 import { MenuItem, Testimonial, Feature } from './types';
 
-export const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor asli
+export const WHATSAPP_NUMBER = "6288299309375"; // Ganti dengan nomor asli
 
 export const MENU_ITEMS: MenuItem[] = [
   {
@@ -15,29 +15,13 @@ export const MENU_ITEMS: MenuItem[] = [
     image: 'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=800&auto=format&fit=crop'
   },
   {
-    id: 'k2',
-    category: 'Kasoami',
-    name: 'Kasoami Lauk Pendamping',
-    description: 'Paket Kasoami lengkap dengan ikan masak parende dan sayur.',
-    price: 'Rp 35.000',
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop'
-  },
-  {
     id: 'e1',
     category: 'Es Teler',
     name: 'Es Teler Original',
     description: 'Perpaduan alpukat, nangka, dan kelapa muda yang menyegarkan.',
     price: 'Rp 20.000',
-    image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=800&auto=format&fit=crop'
+    image: 'src/EsTeler.webp'
   },
-  {
-    id: 'e2',
-    category: 'Es Teler',
-    name: 'Es Teler Premium',
-    description: 'Es Teler dengan tambahan topping durian medan dan keju parut.',
-    price: 'Rp 30.000',
-    image: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=800&auto=format&fit=crop'
-  }
 ];
 
 export const FEATURES: Feature[] = [

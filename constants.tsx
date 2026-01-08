@@ -55,21 +55,21 @@ export const FEATURES: Feature[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    name: 'Budi Santoso',
+    name: 'KishiYuusha',
     comment: 'Kasoaminya sangat lembut dan otentik. Mengobati rasa kangen kampung halaman!',
     rating: 5,
     image: 'https://picsum.photos/seed/budi/100/100'
   },
   {
     id: 2,
-    name: 'Sari Wijaya',
+    name: 'Dreamy Sand',
     comment: 'Es teler premiumnya juara banget! Duriannya kerasa banget dan porsinya besar.',
     rating: 5,
     image: 'https://picsum.photos/seed/sari/100/100'
   },
   {
     id: 3,
-    name: 'Andi Pratama',
+    name: 'Ryzen',
     comment: 'Pelayanan cepat dan rasa tetap konsisten. Cocok buat acara keluarga.',
     rating: 4,
     image: 'https://picsum.photos/seed/andi/100/100'

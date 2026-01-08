@@ -52,6 +52,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
+              <img className="h-14 w-14 rounded-full" src="Logo.png" alt="" />
               <span className="text-2xl font-extrabold text-emerald-600 tracking-tight">Sultra<span className="text-orange-500">Rasa</span></span>
             </div>
 

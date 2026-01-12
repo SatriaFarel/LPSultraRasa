@@ -83,17 +83,17 @@ const App: React.FC = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-b border-slate-100 animate-in slide-in-from-top duration-300">
-            <div className="px-4 pt-2 pb-6 space-y-2">
-              <a href="#home" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Home</a>
-              <a href="#tentang" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Tentang</a>
-              <a href="#menu" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Menu</a>
-              <a href="#keunggulan" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Keunggulan</a>
-              <a href="#testimoni" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Testimoni</a>
-              <a href="#kontak" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Kontak</a>
-            </div>
-          </div>
-        )}
+         <div className="md:hidden fixed top-16 left-0 right-0 bg-white border-b border-slate-100 z-50 animate-in slide-in-from-top duration-300">
+         <div className="px-4 pt-2 pb-6 space-y-2">
+          <a href="#home" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Home</a>
+          <a href="#tentang" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Tentang</a>
+          <a href="#menu" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Menu</a>
+          <a href="#keunggulan" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Keunggulan</a>
+          <a href="#testimoni" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Testimoni</a>
+          <a href="#kontak" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg">Kontak</a>
+         </div>
+         </div>
+       )}
       </nav>
 
       {/* Hero Section */}

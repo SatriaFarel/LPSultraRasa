@@ -403,7 +403,7 @@ const App: React.FC = () => {
                 Menyajikan kuliner terbaik dari tanah Sulawesi Tenggara. Kualitas rasa nomor satu, higienis, dan pastinya halal.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Instagram size={20} /></a>
+                <a href="https://instagram.com/sultrarasa" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Instagram size={20} /></a>
                 <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Facebook size={20} /></a>
                 <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Twitter size={20} /></a>
               </div>
@@ -414,7 +414,7 @@ const App: React.FC = () => {
               <ul className="space-y-4">
                 <li className="flex gap-3 text-slate-400 text-sm">
                   <MapPin className="text-emerald-500 flex-shrink-0" size={20} />
-                  <span>Jl. Kuliner Khas Sultra No. 123, Kendari, Sulawesi Tenggara</span>
+                  <span>Jl. Marzuki 8 No.11, RT.1/RW.14, Penggilingan, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13940</span>
                 </li>
                 <li className="flex gap-3 text-slate-400 text-sm items-center">
                   <Phone className="text-emerald-500 flex-shrink-0" size={20} />

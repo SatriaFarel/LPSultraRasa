@@ -128,7 +128,7 @@ const App: React.FC = () => {
             <div className="flex-1 relative" data-aos="zoom-in" data-aos-delay="200">
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                 <img
-                  src="hero-image.jpg"
+                  src="image2.jpg"
                   alt="Sultra Rasa Hero"
                   className="w-full h-auto object-cover"
                 />
@@ -173,7 +173,7 @@ const App: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
             <div className="flex-1" data-aos="fade-right">
               <img
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop"
+                src="hero-image.jpg"
                 alt="Proses Produksi Sultra Rasa"
                 className="rounded-3xl shadow-xl w-full"
               />
@@ -251,7 +251,7 @@ const App: React.FC = () => {
 
           {/* Category Tabs */}
           <div className="flex justify-center gap-4 mb-16 overflow-x-auto pb-4 no-scrollbar" data-aos="fade-up">
-            {['All', 'Kasoami', 'Es Teler', 'Paket'].map((cat) => (
+            {['Kasoami', 'Es Teler', 'Paket'].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat as any)}

@@ -10,19 +10,27 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: 'k1',
     category: 'Kasoami',
-    name: 'Kasoami Original',
-    description: 'Kasoami murni dari singkong pilihan tanpa bahan pengawet.',
-    price: 'Rp 15.000',
-    image: 'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=800&auto=format&fit=crop'
+    name: 'Kasoami',
+    description: 'Kasoami adalah makanan khas Sulawesi Tenggara berbahan dasar singkong pilihan. Teksturnya lembut, padat, dan gurih alami. Dibuat secara tradisional dengan cita rasa autentik, cocok disantap sebagai camilan',
+    price: 'Rp 8.000',
+    image: 'kasoami.jpg'
   },
   {
     id: 'e1',
     category: 'Es Teler',
-    name: 'Es Teler Original',
-    description: 'Perpaduan alpukat, nangka, dan kelapa muda yang menyegarkan.',
-    price: 'Rp 20.000',
+    name: 'Es Teler',
+    description: 'Es teler segar dengan isian buah pilihan, alpukat lembut, kelapa muda, dan nangka yang harum. Disiram susu manis dan es yang menyegarkan, rasanya manis, creamy, dan pas banget buat pelepas dahaga kapan saja.',
+    price: 'Rp 10.000',
     image: 'EsTeler.webp'
   },
+  {
+    id: 'd1',
+    category: 'Paket',
+    name: "Kasoami dan Es Teler",
+    description: "Kasoami lembut khas Sultra dipadu Es Teler segar berisi buah pilihan dan susu manis. Manis, gurih, dan menyegarkan dalam satu paket",
+    price: "Rp 15.000",
+    image: "image2 jpg" 
+  }
 ];
 
 export const FEATURES: Feature[] = [

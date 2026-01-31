@@ -5,8 +5,8 @@ import {
   X,
   MessageCircle,
   Instagram,
-  Facebook,
-  Twitter,
+  TikTok,
+  Youtube,
   MapPin,
   Clock,
   Phone,
@@ -129,7 +129,7 @@ const App: React.FC = () => {
             <div className="flex-1 relative" data-aos="zoom-in" data-aos-delay="200">
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                 <img
-                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop"
+                  src="hero-image.jpg"
                   alt="Sultra Rasa Hero"
                   className="w-full h-auto object-cover"
                 />
@@ -404,8 +404,8 @@ const App: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 <a href="https://instagram.com/sultrarasa" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Instagram size={20} /></a>
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Facebook size={20} /></a>
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Twitter size={20} /></a>
+                <a href="https://vm.tiktok.com/ZS91xCbfsD16D-PXM1R/" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><TikTok size={20} /></a>
+                <a href="https://youtube.com/@sultrarasa?si=Ul74M086SbLdRuBY" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Youtube size={20} /></a>
               </div>
             </div>
 

@@ -21,7 +21,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Es Teler',
     description: 'Es teler segar dengan isian buah pilihan, alpukat lembut, kelapa muda, dan nangka yang harum. Disiram susu manis dan es yang menyegarkan, rasanya manis, creamy, dan pas banget buat pelepas dahaga kapan saja.',
     price: 'Rp 10.000',
-    image: 'EsTeler.webp'
+    image: 'esteler.jpg'
   },
   {
     id: 'd1',
@@ -29,7 +29,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Kasoami dan Es Teler",
     description: "Kasoami lembut khas Sultra dipadu Es Teler segar berisi buah pilihan dan susu manis. Manis, gurih, dan menyegarkan dalam satu paket",
     price: "Rp 15.000",
-    image: "image2 jpg" 
+    image: "image2.jpg" 
   }
 ];
 

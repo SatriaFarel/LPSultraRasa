@@ -2,10 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import {
   Menu as MenuIcon,
-  X,
   MessageCircle,
   Instagram,
-  TikTok,
+  Tiktok,
   Youtube,
   MapPin,
   Clock,
@@ -252,7 +251,7 @@ const App: React.FC = () => {
 
           {/* Category Tabs */}
           <div className="flex justify-center gap-4 mb-16 overflow-x-auto pb-4 no-scrollbar" data-aos="fade-up">
-            {['All', 'Kasoami', 'Es Teler'].map((cat) => (
+            {['All', 'Kasoami', 'Es Teler', 'Paket'].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat as any)}
@@ -404,7 +403,7 @@ const App: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 <a href="https://instagram.com/sultrarasa" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Instagram size={20} /></a>
-                <a href="https://vm.tiktok.com/ZS91xCbfsD16D-PXM1R/" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><TikTok size={20} /></a>
+                <a href="https://vm.tiktok.com/ZS91xCbfsD16D-PXM1R/" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Tiktok size={20} /></a>
                 <a href="https://youtube.com/@sultrarasa?si=Ul74M086SbLdRuBY" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Youtube size={20} /></a>
               </div>
             </div>

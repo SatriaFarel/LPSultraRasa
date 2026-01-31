@@ -1,10 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
+import { FaTiktok } from "react-icons/fa";
 import {
   Menu as MenuIcon,
   MessageCircle,
   Instagram,
-  Tiktok,
   Youtube,
   MapPin,
   Clock,
@@ -403,7 +403,7 @@ const App: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 <a href="https://instagram.com/sultrarasa" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Instagram size={20} /></a>
-                <a href="https://vm.tiktok.com/ZS91xCbfsD16D-PXM1R/" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Tiktok size={20} /></a>
+                <a href="https://vm.tiktok.com/ZS91xCbfsD16D-PXM1R/" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><FaTiktok size={20} /></a>
                 <a href="https://youtube.com/@sultrarasa?si=Ul74M086SbLdRuBY" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all"><Youtube size={20} /></a>
               </div>
             </div>
